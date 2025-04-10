@@ -34,7 +34,7 @@ img{
 .fa-user{
     color: #000B23; 
 }
-.fa-chevron-right{
+.inner-one i{
     font-size: 12px;
 }
 .inner-inner{
@@ -198,7 +198,6 @@ img{
     align-items: center;
     justify-content: center;
     gap: 2vw;
-    /* border: 1px solid black; */
 }
 #fix{
     display: flex;
@@ -229,6 +228,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
     border: 1px solid black;
 }
 .inner-seven-one{
@@ -238,8 +238,6 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: end;
-    
-    /* border: 1px solid black; */
 }
 .inner-seven-two{
     width: 85vw;
@@ -251,24 +249,99 @@ img{
     width: 50vh;
     height: 20vh;
     margin-bottom: 35px;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .gray{
     width: 35vh;
-    height: 45vh;
+    height: 35vh;
     margin-bottom: 35px;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(209, 204, 204);
+    font-family: "Noto Serif", serif;
+}
+.gray a{
+    color: whitesmoke;
+}
+#inner-gray-one{
+    padding-bottom: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    /* color: whitesmoke; */
+    font-family: "Noto Serif", serif;
+}
+#inner-gray-one p{
+    color: rgb(209, 204, 204);
+}
+#inner-gray-one a{
+     color: whitesmoke;
+}
+#inner-gray{
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Noto Serif", serif;
 }
 #glow{
     width: 20vw;
     height: 30vh;
     margin-left: 20vw;
-    border: 1px solid black;
+    display: flex;
+    display: flex;
+    gap: 3px;
 }
 .internal{
     width: 40vw;
     height: 10vh;
     margin-top: 20px;
     margin-left: 45vw;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12vw;
+    color: whitesmoke;
+}
+.grey img{
+    width: 22vw;
+    padding-top: 30px;
+}
+.grey div{
+    width: 12vw;
+    height: 6vh;
+    border-radius: 15px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 20px;
+    border: 2px solid white;
+}
+.fa-solid{
+    font-size: 23px;
+}
+#another-grey div a{
+    color: whitesmoke;
+}
+.grey div p{
+    font-size: 18px;
+    font-family: "Noto Serif", serif;
+}
+.inner-glow{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+.fa-brands{
+    color: whitesmoke;
 }
